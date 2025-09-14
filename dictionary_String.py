@@ -1,4 +1,4 @@
-myStr = "2nd PU Course"
+myStr = "Hello World!"
 print("The input string is:", myStr)
 myDict = dict()
 for character in myStr:
