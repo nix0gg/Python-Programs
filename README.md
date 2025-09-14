@@ -5,7 +5,7 @@ This repository consists of python programs which show the following in action:
     ⏭️ Indentation
 
 The idea of this repository is to give you a brief introduction to Python and make it easier to understand.
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 ℹ️ Things to keep in mind:
 
 1. Not all information provided in this README file is accurate, which is why I highly encourage you to fact-check certain aspects of this file. Don't rely on this file only, instead, learn from multiple sources.
@@ -14,7 +14,7 @@ The idea of this repository is to give you a brief introduction to Python and ma
 
 (more coming soon)
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 🔧 How to write and run python programs:
 
 If you want to run and write python programs, you'll need to install and IDE for python (Recommened for beginners: IDLE).
@@ -25,19 +25,19 @@ Luckily, you can undo the changes and fix the code, provided that you haven't sa
 
 In this case, we'll be using IDLE.
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 
 There are two modes in IDLE IDE:
 
-> Interactive Mode:
+1. Interactive Mode:
 
     In this mode, you'll see a Window which shows ">>" at the left side. You can type lines of code like "print(1+1)" and upon entering, it shows you the output.
 
-> Script Mode:
+2. Script Mode:
 
     In this mode, you can write python programs fully and execute all the lines of code at once, unlike Interactive Mode.
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 
 🧠 Learning about Python:
 
@@ -76,8 +76,8 @@ Python is an object-oriented high level programming language.
 - **Automatic memory management:** 
 
     Python cleans up unused data for you, so you don't have to worry about it.
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 👨‍💻 The coding part:
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 (More coming soon)
