@@ -1,19 +1,19 @@
-userInput = input("Write a sentence: ")
-totalChar = len(userInput)
-print("Total characters:", totalChar)
-totalAlpha = totalDigit = totalSpecial =0
-for a in userInput:
-    if a.isalpha():
-        totallpha +=1
-    elif a.isdigit():
-        totalDigit +=1
-    else:
-        totalSpecial +=1
-print("Total Alphabets:", totalAlpha)
-print("Total Digits:", totalDigit)
-print("Total Special Characters:", totalSpecial)
-totalSpace =0
-for b in userInput:
-    if b.isspace():
-        totalSpace +=1
-        print("Total Spaces:", (totalSpace +1))
+userInput = input("Write a sentence: ")  # Accepts a sentence from user
+totalChar = len(userInput)  # Calculates total characters in the  given sentence
+print("Total characters:", totalChar)  # Prints total characters in the given sentence
+totalAlpha = totalDigit = totalSpecial = 0  # Initializes counter variables
+for a in userInput:  # Loops through each character from the given sentence
+    if a.isalpha():  # If the character is an alphabet
+        totalAlpha += 1  # Increments the alphabet counter
+    elif a.isdigit():  # If the character is a digit
+        totalDigit += 1  # Increments the digit counter
+    else:  # If the character is a special character
+        totalSpecial += 1  # Increments the special character counter
+print("Total Alphabets:", totalAlpha)  # Prints total alphabets in the given sentence
+print("Total Digits:", totalDigit)  # Print total digits in the given sentence
+print("Total Special Characters:", totalSpecial)  # Prints the total special characters in the given sentence
+totalSpace = 0  # Initializes space counter
+for b in userInput:  # Loops through each character
+    if b.isspace():  # If character is a whitespace
+        totalSpace += 1  # Increments the space counter
+print("Total Spaces:", totalSpace)  # Prints total whitespaces in the given sentence

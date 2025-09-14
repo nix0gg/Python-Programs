@@ -1,5 +1,5 @@
-def replaceChar(string):
-    return string.replace('', '-')
-userInput = input("Enter a sentence: ")
-result = replaceChar(userInput)
-print("The new sentence is:", result)
+def replaceChar(string):  # Defines a user defined function to replace whitespaces with hyphens
+    return string.replace(' ', '-')  # Replaces whitespaces with hyphens
+userInput = input("Enter a sentence: ")  # Accepts a sentence from user
+result = replaceChar(userInput)  # Calls function to replace whitespaces
+print("The new sentence is:", result)  # Prints the new sentence

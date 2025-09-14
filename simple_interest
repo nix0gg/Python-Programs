@@ -1,5 +1,5 @@
-principal = float(input("Enter amount:"))
-time = float(input("Enter time:"))
-rate = float(input("Enter rate:"))
-simple_interest = (principal * time * rate) / 100
-print("Simple Interest is:", simple_interest)
+principal = float(input("Enter amount:"))  # Accepts principal amount from user
+time = float(input("Enter time:"))  # Accepts time period from user
+rate = float(input("Enter rate:"))  # Accepts interest rate from user
+simple_interest = (principal * time * rate) / 100  # Calculates simple interest
+print("Simple Interest is:", simple_interest)  # Prints the calculated simple interest

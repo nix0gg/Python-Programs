@@ -1,11 +1,11 @@
-x = 10
-y = 50
-print("Values of variables before swapping:")
-print("x =", x)
-print("y =", y)
-temp = x
-x = y
-y = temp
-print("Values of variables after swapping:")
-print("Value of x :", x)
-print("Value of y :", y)
+x = 10  # Initializes variable x
+y = 50  # Initializes variable y
+print("Values of variables before swapping:")  # Prints the values before swapping
+print("x =", x)  # Prints the value of x
+print("y =", y)  # Prints the value of y
+temp = x  # Stores the value of x in temp
+x = y  # Assigns the value of y to x
+y = temp  # Assigns the value of temp to y
+print("Values of variables after swapping:")  # Prints the values after swapping
+print("Value of x :", x)  # Prints the new value of x
+print("Value of y :", y)  # Prints the new value of y
