@@ -1,0 +1,11 @@
+x = 10
+y = 50
+print("Values of variables before swapping:")
+print("x =", x)
+print("y =", y)
+temp = x
+x = y
+y = temp
+print("Values of variables after swapping:")
+print("Value of x :", x)
+print("Value of y :", y)
