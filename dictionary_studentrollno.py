@@ -6,7 +6,7 @@ for i in range(no_of_std):  # Loops for each student
     std_name = input("Enter student name:")  # Accepts student name
     marks = int(input("Marks:"))  # Accepts marks
     result[roll_no] = [std_name, marks]  # Stores details in dictionary
-    print(result)  # Prints current state of dictionary
+print(result)  # Prints current state of dictionary
 for student in result:  # Loops through dictionary to check marks
     if result[student][1] > 75:  # A condition if the marks are greater than 75
         print("Student's name who Acceptss more than 75 marks is/are:", (result[student][0]))  # Prints student name
