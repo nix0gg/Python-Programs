@@ -1,8 +1,9 @@
 This repository consists of python programs which show the following in action:
-    ⚙️ Logic
-    🔧 User defined functions
-    🧰 Built in functions & features
-    ⏭️ Indentation
+    
+⚙️ Logic
+🔧 User defined functions
+🧰 Built in functions & features
+⏭️ Indentation
 
 The idea of this repository is to give you a brief introduction to Python and make it easier to understand.
 
