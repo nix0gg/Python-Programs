@@ -9,5 +9,5 @@ for i in range(no_of_std):  # Loops for each student
 print(result)  # Prints current state of dictionary
 for student in result:  # Loops through dictionary to check marks
     if result[student][1] > 75:  # A condition if the marks are greater than 75
-        print("Student's name who Acceptss more than 75 marks is/are:", (result[student][0]))  # Prints student name
+        print("Student's name who got more than 75 marks is/are:", (result[student][0]))  # Prints student name
     
